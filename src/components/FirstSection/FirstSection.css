@@ -22,3 +22,7 @@
   text-align: center;
   margin: 15vh 0;
 }
+
+.first-section-wrapper img:hover {
+  transform: scale(95%);
+}
