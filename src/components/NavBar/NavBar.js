@@ -13,7 +13,9 @@ const NavBar = () => {
 
   return (
     <nav className="navbar-header">
-      <p>sunnyside</p>
+      <Link to="/" className="navbar-title">
+        sunnyside
+      </Link>
       <div onClick={handleClickMenu} className="menu-icon">
         {menuClicked ? <AiOutlineClose /> : <AiOutlineMenu />}
       </div>

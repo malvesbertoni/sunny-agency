@@ -1,5 +1,4 @@
 .homepage-wrapper {
-  background-image: url("../images/desktop/image-header.jpg");
-
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }

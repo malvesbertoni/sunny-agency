@@ -1,10 +1,10 @@
 import "./Homepage.css";
-import NavBar from "./NavBar/NavBar";
+import FirstSection from "./FirstSection/FirstSection";
 
 const Homepage = () => {
   return (
     <div className="homepage-wrapper">
-      <NavBar />
+      <FirstSection />
     </div>
   );
 };
