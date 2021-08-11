@@ -1,0 +1,62 @@
+.third-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 10vw 5vh 10vw;
+}
+
+.third-section-wrapper h1 {
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 0.25em;
+  font-size: 1.2em;
+  margin-top: 12.5vh;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 2vw;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: clamp(2vw, 5vw, 10vw);
+  height: auto;
+
+  margin: 5vh 0;
+}
+
+.testimonial p {
+  font-family: "Barlow";
+  font-weight: 600;
+  color: hsl(213, 9%, 39%);
+
+  margin: 5vh 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.testimonial h1 {
+  color: hsl(212, 27%, 19%);
+  letter-spacing: 0;
+  font-size: 1em;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin: 5vh 0 1vh 0;
+}
+
+.testimonial h2 {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 0.85em;
+  color: hsl(210, 4%, 67%);
+  margin-bottom: 3.5vh;
+}
