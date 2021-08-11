@@ -1,5 +1,3 @@
-import "./NavItems.css";
-
 export const NavItems = [
   { title: "About", url: "/about", cName: "nav-item" },
   { title: "Services", url: "/services", cName: "nav-item" },

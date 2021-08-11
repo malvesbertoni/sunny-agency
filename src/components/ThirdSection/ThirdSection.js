@@ -1,3 +1,8 @@
+/* 
+  Renders the Third Section of the Homepage component.
+  This component consumes the "Testimonials" object to fill in the information about the clients testimonials'.
+*/
+
 import "./ThirdSection.css";
 import { Testimonials } from "./Testimonials";
 

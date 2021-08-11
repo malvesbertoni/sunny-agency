@@ -1,3 +1,8 @@
+/* 
+  Renders the First Section of the Homepage component.
+  This component also renders the Navigation Bar that is displayed in this section.
+*/
+
 import "./FirstSection.css";
 import NavBar from "../NavBar/NavBar";
 import arrowDown from "../../images/icon-arrow-down.svg";

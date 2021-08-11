@@ -1,3 +1,8 @@
+/*
+    Renders the Footer of the Homepage.
+    This component consumes the "SocialMediaImg" object, which describes the image's filename, url and alt attribute.
+*/
+
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { SocialMediaImg } from "./SocialMediaImg";

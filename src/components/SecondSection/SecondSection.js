@@ -1,3 +1,8 @@
+/* 
+  Renders the Second Section of the Homepage component.
+  It may be wise to refactor this code into different components that can be called or consuming an object to fill the info.
+*/
+
 import "./SecondSection.css";
 import { Link } from "react-router-dom";
 import imgEgg from "../../images/desktop/image-transform.jpg";
