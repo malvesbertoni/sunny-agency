@@ -1,0 +1,50 @@
+.footer {
+  background-color: hsl(168, 60%, 70%);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh;
+
+  color: hsl(168, 34%, 41%);
+}
+
+.footer-wrapper h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+}
+
+.footer-links {
+  margin: 5vh 0;
+}
+
+.page-link {
+  margin: 0 1.3vw;
+
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  color: hsl(168, 34%, 41%);
+  font-weight: normal;
+}
+
+.page-link:hover {
+  color: hsl(168, 33%, 33%);
+}
+
+.page-link:hover:active {
+  color: hsl(168, 33%, 33%);
+}
+
+.social-media-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-links {
+  margin: 3vh 1vw 0 1vw;
+}
