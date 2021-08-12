@@ -38,4 +38,4 @@ Users should be able to:
 
 ## Author
 
-- LinkedIn - [M. Bertoni](https://www.linkedin.com/in/m-bertoni/)
+- [M. Bertoni](https://www.linkedin.com/in/m-bertoni/)
