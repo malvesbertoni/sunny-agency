@@ -59,6 +59,10 @@
     position: relative;
   }
 
+  .navbar-title {
+    margin-left: 2vw;
+  }
+
   .navbar-menu {
     display: flex;
     flex-direction: column;
@@ -103,10 +107,6 @@
     margin: 0;
     width: 100%;
     height: auto;
-  }
-
-  .nav-item:hover {
-    background-color: rgba(230, 230, 230, 0.425);
   }
 
   .menu-icon {

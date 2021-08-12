@@ -60,3 +60,33 @@
   color: hsl(210, 4%, 67%);
   margin-bottom: 3.5vh;
 }
+
+@media screen and (max-width: 545px) {
+  .third-section-wrapper h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 5vw;
+    margin-bottom: 3vh;
+  }
+
+  .testimonials-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial {
+    padding: 8vh 5vw 0 5vw;
+  }
+
+  .testimonial img {
+    width: clamp(25%, 35%, 45%);
+  }
+
+  .testimonial p {
+    margin: 2vh 0;
+  }
+
+  .testimonial h1 {
+    margin: 5vh 0 2vh 0;
+  }
+}

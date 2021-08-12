@@ -20,16 +20,16 @@ const SecondSection = () => {
             <br /> brand
           </h1>
           <p>
-            We are a full-service creative agency specializing in
-            <br /> helping brands grow fast. Engage your clients through
-            <br /> compelling visuals that do most of the marketing for you.
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
           </p>
 
           <Link to="/about" className="ss-text-transform">
             LEARN MORE
           </Link>
         </div>
-        <div className="ss-full-image">
+        <div className="ss-full-image egg">
           <img src={imgEgg} alt="Egg" />
         </div>
         <div className="ss-full-image">
@@ -42,9 +42,8 @@ const SecondSection = () => {
           </h1>
           <p>
             Using a collaborative formula of designers, researchers,
-            <br />
-            photographers, videographers, and copywriters, we'll
-            <br /> build and extend your brand in digital places.
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places.
           </p>
           <Link to="/about" className="ss-text-stand-out">
             LEARN MORE
